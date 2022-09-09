@@ -5,7 +5,7 @@
  * Return: Always 0 (success)
  */
 
-into main(void)
+int main(void)
 {
 	char alpha = 'a';
 
