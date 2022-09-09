@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	alpha = 'a';
+	char alpha = 'a';
 
 	while (alpha <= 'z')
 	{
-		if (alpha == 'e' || alpha == 'q')
+		if ((alpha == 'e') || (alpha == 'q'))
 		{
 			continue;
 		}
