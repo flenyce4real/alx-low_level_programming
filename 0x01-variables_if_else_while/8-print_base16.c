@@ -1,25 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - prints hexadecimal base 0123456789abcdef, using putchar
- * Return: Always 0 (Success)
+ * main - prints hexadecimal base 0123456789abcdef with putchar
+ * Return: Always 0 (success)
  */
 
 int main(void)
 {
 	int n = '0';
-	int a_to_f = 'a';
+	int alpha = 'a';
 
-	while (n <= '9') /* print 0-9 */
+	while (n <= '9') /* print 0 - 9 */
 	{
 		putchar(n);
 		n++;
 	}
 
-	while (a_to_f <= 'f') /* print a-f to finish hexbase */
+	while (alpha <= 'f') /* print a - f */
 	{
-		putchar(a_to_f);
-		a_to_f++;
+		putchar(alpha);
+		alpha++;
 	}
 
 	putchar('\n');

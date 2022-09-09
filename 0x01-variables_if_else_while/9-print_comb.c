@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - print 0-9 separated with commas, using putchar
- * Return: Always 0 (Success)
+ * main - print 0-9 separated by commas with putchar
+ * Return: Always 0 (success)
  */
 
 int main(void)
@@ -18,8 +18,10 @@ int main(void)
 			putchar(',');
 			putchar(' ');
 		}
+
 		n++;
 	}
+
 	putchar('\n');
 
 	return (0);
