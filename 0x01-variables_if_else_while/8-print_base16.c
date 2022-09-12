@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints hexadecimal base 0123456789abcdef with putchar
+ * main - print hexadecimal numbers with putchar
  * Return: Always 0 (success)
  */
 
@@ -10,13 +10,13 @@ int main(void)
 	int n = '0';
 	int alpha = 'a';
 
-	while (n <= '9') /* print 0 - 9 */
+	while (n <= '9')
 	{
 		putchar(n);
 		n++;
 	}
 
-	while (alpha <= 'f') /* print a - f */
+	while (alpha <= 'f')
 	{
 		putchar(alpha);
 		alpha++;
